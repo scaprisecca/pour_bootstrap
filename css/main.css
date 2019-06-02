@@ -1,0 +1,103 @@
+
+:root {
+    --green: #8dc53c;
+    --black: #060709;
+    --white: #fdfdfd;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*--- Nav Section --- */
+
+.steel-gradient {
+    background: rgb(107,122,137);
+    background: -moz-linear-gradient(left,  rgba(107,122,137,1) 9%, rgba(158,171,186,1) 49%, rgba(107,122,137,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(107,122,137,1) 9%,rgba(158,171,186,1) 49%,rgba(107,122,137,1) 100%);
+    background: linear-gradient(to right,  rgba(107,122,137,1) 9%,rgba(158,171,186,1) 49%,rgba(107,122,137,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7a89', endColorstr='#6b7a89',GradientType=1 );
+}
+
+#nav-logo {
+    padding-left: 2rem;
+    font-size: 2rem;
+    color: var(--green);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+#nav-logo span {
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: lowercase;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.social {
+    list-style-type: none;
+}
+
+.social li {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.social__link:hover, .social__link:focus {
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.social a {
+    color: black;
+}
+
+/*--- Jumbrotron Section --- */
+.jumbo-img {
+    border-radius: 2%;
+}
+
+.pour-logo {
+    width: 200px;
+    height: 200px;
+}
+
+/*--- Modal Section --- */
+#modal-section {
+    height: 400px;
+}
+
+.modal-title {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.modal-img {
+    width: 250px;
+    height: 200px;
+}
+
+.modal-btn {
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: var(--black);
+    color: var(--green);
+    font-weight: 700;
+    border-radius: 5%;
+}
+
+.modal-btn:hover {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+/*--- Photo Gallery Section --- */
+
+#photoGallery {
+    background: #9fb4cc;
+    
+}
+
+/*--- Color Styling --- */
+
