@@ -3,6 +3,8 @@
     --green: #8dc53c;
     --black: #060709;
     --white: #fdfdfd;
+    --light-gray: #a0afaf;
+    --dark-gray:#2f4550;
 }
 
 body {
@@ -54,28 +56,43 @@ body {
 }
 
 /*--- Jumbrotron Section --- */
+
+.jumbotron {
+    /* background-color: #ffffff; */
+}
+
 .jumbo-img {
     border-radius: 2%;
 }
 
 .pour-logo {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+}
+
+.lead {
+    text-align: center;
+    line-height: 2rem;
 }
 
 /*--- Modal Section --- */
 #modal-section {
-    height: 400px;
+    height: auto;
+    padding: 2rem;
 }
 
 .modal-title {
     font-size: 2rem;
     text-transform: capitalize;
+    font-family: 'Josefin', 'Montserrat', sans-serif;
 }
 
 .modal-img {
     width: 250px;
     height: 200px;
+    -webkit-box-shadow: 8px 5px 8px 3px rgba(0,0,0,0.62);
+    -moz-box-shadow: 8px 5px 8px 3px rgba(0,0,0,0.62);
+    box-shadow: 8px 5px 8px 3px rgba(0,0,0,0.62);
 }
 
 .modal-btn {
@@ -92,11 +109,58 @@ body {
     color: var(--black);
 }
 
+.hh-title {
+    font-family: 'Josefin', 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    border-top: 2px solid var(--green);
+    text-align: center;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+.hh-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.menu-title {
+    font-family: 'Josefin', 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-top: 2px solid var(--green);
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+.menu-description {
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    margin: 0;
+}
+
+.menu-price {
+    padding-left: 3rem;
+    font-weight: 600;
+}
+
 /*--- Photo Gallery Section --- */
 
 #photoGallery {
-    background: #9fb4cc;
+    /* background: var(--light-gray); */
+    background: #e9ecef;
     
+}
+
+.carousel-item img {
+    height: 700px;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: var(--black);
 }
 
 /*--- Color Styling --- */

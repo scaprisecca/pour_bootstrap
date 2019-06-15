@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Pour Wine & Taproom</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,9 +25,9 @@
   <body>
     <div class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg steel-gradient">
-            <p id="nav-logo"><span class="pour-text">Pour </span>Wine & Taproom</p>
-            <ul class="social navbar-nav ml-auto">
+        <nav class="navbar navbar-expand-md steel-gradient">
+            <p id="nav-logo" class="text-center"><span class="pour-text">Pour </span>Wine & Taproom</p>
+            <ul class="social navbar-nav d-none d-md-inline-block ml-auto">
                 <li class="facebook social__link"><a href="https://www.facebook.com/AZpourwineandtaproom/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
                 <li class="yelp social__link"><a href="https://www.yelp.com/biz/pour-wine-and-taproom-mesa" target="_blank"><i class="fab fa-yelp"></i></a></li>
                 <li class="email social__link"><a href="#"><i class="fas fa-envelope"></i></a></li>
@@ -37,22 +37,20 @@
         <!--Jumbotron Section-->
         <div class="jumbotron">
           <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-12">
               <img src="img/pour_hero_cover.jpg" alt="Some drinks at Pour Wine & Taproom" class="jumbo-img img-fluid">
-          </div>
-            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
-              <img src="img/pour_logo.png" alt="Pour's Logo" class="pour-logo">
-              <h1 class="display-4">Happy Hour</h1>
-              <p class="lead">2pm - 7pm Everyday</p>
-              <p class="lead">on all glasses of wine & craft beers</p>
-              <p class="lead phone">(480) 354-7687</p>
+            </div>
+            <div class="hh-container col-lg-4 col-md-12 d-flex flex-column justify-content-around align-items-center">
+              <img src="img/pour_logo.png" alt="Pour's Logo" class="pour-logo d-none d-lg-block">
+              <h1 class="display-4 py-3 py-lg-0 text-center">Happy Hour</h1>
+              <p class="lead">2pm - 7pm Everyday<br />on all glasses of wine & craft beers<br /><a href="tel:+14803547687">(480) 354-7687</a></p>
             </div>
           </div>
         </div>
 
         <!--Modal Section-->
         <!--Beer modal Section-->
-        <div id="modal-section">
+        <div id="modal-section" class="my-lg-3">
           <div class="row">
             <div class="col-12">
               <p class="modal-title text-center pb-3">Check out our beer & wine selection</p>
@@ -64,7 +62,7 @@
               <div class="card">
                 <div class="card-body text-center">
                   <img src="img/pour_beer_list_2.jpg" alt="Beer List" class="modal-img">
-                  <button class="modal-btn w-100 mt-md-4 mt-2" data-toggle="modal" data-target="#beerModal">Beer List</button>
+                  <button class="modal-btn w-50 mt-md-4 mt-2" data-toggle="modal" data-target="#beerModal">Beer List</button>
                 </div>
               </div>
             </div>
@@ -74,7 +72,7 @@
               <div class="card">
                 <div class="card-body text-center">
                   <img src="img/pour_wine_list.jpg" alt="Beer List" class="modal-img">
-                  <button class="modal-btn w-100 mt-md-4 mt-2" data-toggle="modal" data-target="#wineModal">Wine List</button>
+                  <button class="modal-btn w-50 mt-md-4 mt-2" data-toggle="modal" data-target="#wineModal">Wine List</button>
                 </div>
               </div>
             </div>
@@ -84,7 +82,7 @@
               <div class="card">
                 <div class="card-body text-center">
                   <img src="img/new_pour_snack.jpg" alt="Beer List" class="modal-img">
-                  <button class="modal-btn mt-md-4 mt-2 w-100" data-toggle="modal" data-target="#snackModal">Snack Menu</button>
+                  <button class="modal-btn mt-md-4 mt-2 w-50" data-toggle="modal" data-target="#snackModal">Snack Menu</button>
                 </div>
               </div>
             </div>
@@ -103,8 +101,12 @@
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body text-center">
                     <img class="lg-modal-img img-fluid" src="img/pour_beer_list_2.jpg" alt="Pour's Wine List">
+                    <p class="beer-menu-description pt-md-3">All to-go beer options are located in our cooler</p>
+                    <p>Come on in to check out our rotating supply of beers!</p>
+                    <p class="hh-title">Happy Hour Deals</p>
+                    <p class="hh-description">$2 off 16oz Beers<br />$1 off 10oz Beers</p>
                 </div>
               </div>
             </div>
@@ -116,13 +118,16 @@
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="wineModalTitle">Pour's Wine Menu</h5>
+                  <h5 class="modal-title" id="wineModalTitle">Pour's Wine & Mead Menu</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body">
-                    <img class="lg-modal-img" src="img/pour_wine_list.jpg" alt="Pour's Wine List">
+                <div class="modal-body text-center">
+                    <img class="lg-modal-img img-fluid" src="img/pour_wine_list.jpg" alt="Pour's Wine List">
+
+                    <p class="hh-title">Happy Hour Deals</p>
+                    <p class="hh-description">50 cents off 4oz pour<br />$1 off Bottle of Wine</p>
                 </div>
               </div>
             </div>
@@ -134,14 +139,47 @@
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="snackModalTitle">Pour's Snack Menu</h5>
+                  <h5 class="modal-title text-center" id="snackModalTitle">Pour's Snack Menu</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  <!--change this to a written menu-->
-                    
+                  <p class="menu-title">Bavarian Pretzels</p>
+                  <p class="menu-description">Buttered and Salted pretzels served with Beer Cheese and IPA Mustard</p><span class="menu-price">$9</span>
+
+                  <p class="menu-title">Chips and Dip</p>
+                  <p class="menu-description">Kettle chips served with French Onion Dip</p><span class="menu-price">$5</span>
+
+                  <p class="menu-title">Pita and Hummus</p>
+                  <p class="menu-description">Fresh Grilled Pita with Seasonal fresh hummus. Served with cucumber, bell peppers and carrots</p><span class="menu-price">$6</span>
+
+                  <p class="menu-title">Salted Mixed Nuts</p>
+                  <p class="menu-description">Small / Large</p><span class="menu-price">$3 / $6</span>
+
+                  <p class="menu-title">Lisa's Rum Cakes</p>
+                  <p class="menu-description">Ask your server or check cooler for available selections</p><span class="menu-price">$4.50</span>
+
+                  <p class="menu-title">Windcave</p>
+                  <p class="menu-description">Choice Selection of Seasonal Jam, Brie, Gouda, Port Derby and Vintage Cheddar. Capicola, Salami and Apple Pecan Summer Sausage from The Pork Shop in QC. Olives, French Baguette, Gluten free Crackers & Mixed Nuts</p><span class="menu-price">$15</span>
+
+                  <p class="menu-title">Grand Canyon</p>
+                  <p class="menu-description">(<strong>Windcave</strong>) with the addition of Prosciutto, Seasonal Fruit, Local AZ Honeycomb</p><span class="menu-price">$22</span>
+
+                  <p class="menu-title">Bruschetta  -- Mix & Match (4)</p>
+                  <p class="menu-description">Fig, goat cheese & prosciutto</p>
+                  <p class="menu-description">Pesto & salami</p>
+                  <p class="menu-description">Apple, brie & honey drizzled walnuts</p>
+                  <p class="menu-description">Caprese, topped w/ balsamic glaze</p><span class="menu-price">$15</span>
+
+                  <p class="menu-title">The Dizzy</p>
+                  <p class="menu-description">Thinly sliced pastrami stacked with house made spicy slaw and pepper jack cheese on marble rye</p><span class="menu-price">$8</span>
+
+                  <p class="menu-title">Margherita Flatbread</p>
+                  <p class="menu-description">Mozzarella cheese, roma tomato, fresh basil and pesto Drizzled w/ balsamic glaze</p><span class="menu-price">$9</span>
+
+                  <p class="hh-title">Happy Hour Deals</p>
+                    <p class="hh-description">$4 off BLT</p>
                 </div>
               </div>
             </div>
@@ -149,7 +187,7 @@
         
           <!--Image Carousel Section-->
 
-          <div id="photoGallery" class="carousel slide mb-2" data-ride="carousel">
+          <div id="photoGallery" class="carousel slide " data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#photoGallery" data-slide-to="0" class="active"></li>
                 <li data-target="#photoGallery" data-slide-to="1"></li>
@@ -157,14 +195,10 @@
                 <li data-target="#photoGallery" data-slide-to="3"></li>
                 <li data-target="#photoGallery" data-slide-to="4"></li>
                 <li data-target="#photoGallery" data-slide-to="5"></li>
-                <li data-target="#photoGallery" data-slide-to="6"></li>
               </ol>
 
-              <div class="carousel-inner w-75 mx-auto" id="carousel-inner">
+              <div class="carousel-inner mx-auto" id="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="img/slideshow_1.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
                   <img class="d-block w-100" src="img/slideshow_2.png" alt="Second slide">
                 </div>
                 <div class="carousel-item">
@@ -198,27 +232,27 @@
 
             <footer class="page-footer text-center steel-gradient">
               <div class="row pt-lg-3 pt-2">
-                <div class="col-lg-4">
+                <div class="col-lg-4 d-none d-lg-block">
                   <p class="text-uppercase">Map</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-6">
                     <p class="text-uppercase">Address</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-6">
                     <p class="text-uppercase">Hours</p>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 d-none d-lg-block">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.3221493815436!2d-111.63742588480294!3d33.36265468079909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872bb18e6f600975%3A0xfe91bcb256265be8!2s2905+S+Ellsworth+Rd+%23103%2C+Mesa%2C+AZ+85212!5e0!3m2!1sen!2sus!4v1556126591987!5m2!1sen!2sus" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-6">
                   <p class="footer-text">2905 S Ellsworth Rd Suite 103
                       Mesa, AZ 85212</p>
                   <p class="footer-text">(480) 354-7687</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-6">
                   <p class="footer-text">Sun-Wed: 2:00pm - 10:00pm</p>
                   <p class="footer-text">Thur-Sat: 2:00pm - 12:00am</p>
                 </div>
