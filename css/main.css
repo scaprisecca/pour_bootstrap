@@ -3,22 +3,22 @@
     --green: #8dc53c;
     --black: #060709;
     --white: #fdfdfd;
-    --light-gray: #a0afaf;
-    --dark-gray:#2f4550;
+    --light-gray: #e9ecef;
+    --dark-gray: rgb(107,122,137);
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 /*--- Nav Section --- */
 
 .steel-gradient {
     background: rgb(107,122,137);
-    background: -moz-linear-gradient(left,  rgba(107,122,137,1) 9%, rgba(158,171,186,1) 49%, rgba(107,122,137,1) 100%);
+    /* background: -moz-linear-gradient(left,  rgba(107,122,137,1) 9%, rgba(158,171,186,1) 49%, rgba(107,122,137,1) 100%);
     background: -webkit-linear-gradient(left,  rgba(107,122,137,1) 9%,rgba(158,171,186,1) 49%,rgba(107,122,137,1) 100%);
     background: linear-gradient(to right,  rgba(107,122,137,1) 9%,rgba(158,171,186,1) 49%,rgba(107,122,137,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7a89', endColorstr='#6b7a89',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7a89', endColorstr='#6b7a89',GradientType=1 ); */
 }
 
 #nav-logo {
@@ -57,10 +57,6 @@ body {
 
 /*--- Jumbrotron Section --- */
 
-.jumbotron {
-    /* background-color: #ffffff; */
-}
-
 .jumbo-img {
     border-radius: 2%;
 }
@@ -82,17 +78,23 @@ body {
 }
 
 .modal-title {
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: capitalize;
-    font-family: 'Josefin', 'Montserrat', sans-serif;
+    font-family: 'Maven Pro', 'Montserrat', sans-serif;
 }
 
 .modal-img {
     width: 250px;
     height: 200px;
-    -webkit-box-shadow: 8px 5px 8px 3px rgba(0,0,0,0.62);
-    -moz-box-shadow: 8px 5px 8px 3px rgba(0,0,0,0.62);
-    box-shadow: 8px 5px 8px 3px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 5px 8px 10px -3px rgba(0,0,0,0.62);
+    -moz-box-shadow: 5px 8px 10px -3px rgba(0,0,0,0.62);
+    box-shadow: 5px 8px 10px -3px rgba(0,0,0,0.62);
+    border: solid 5px var(--dark-gray);
+    border-radius: 5px;
+}
+
+.snack-img {
+    object-fit: cover;
 }
 
 .modal-btn {
@@ -101,12 +103,15 @@ body {
     background-color: var(--black);
     color: var(--green);
     font-weight: 700;
+    border: solid 3px var(--black);
     border-radius: 5%;
+    box-shadow: 0 20px 40px -10px rgba(6, 7, 9, 0.4);
 }
 
 .modal-btn:hover {
     background-color: var(--green);
     color: var(--black);
+    font-size: 1.2rem;
 }
 
 .hh-title {
@@ -149,8 +154,7 @@ body {
 /*--- Photo Gallery Section --- */
 
 #photoGallery {
-    /* background: var(--light-gray); */
-    background: #e9ecef;
+    background: var(--light-gray);
     
 }
 
