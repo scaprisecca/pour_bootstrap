@@ -15,10 +15,6 @@ body {
 
 .steel-gradient {
     background: rgb(107,122,137);
-    /* background: -moz-linear-gradient(left,  rgba(107,122,137,1) 9%, rgba(158,171,186,1) 49%, rgba(107,122,137,1) 100%);
-    background: -webkit-linear-gradient(left,  rgba(107,122,137,1) 9%,rgba(158,171,186,1) 49%,rgba(107,122,137,1) 100%);
-    background: linear-gradient(to right,  rgba(107,122,137,1) 9%,rgba(158,171,186,1) 49%,rgba(107,122,137,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7a89', endColorstr='#6b7a89',GradientType=1 ); */
 }
 
 #nav-logo {
@@ -167,5 +163,4 @@ body {
     background-color: var(--black);
 }
 
-/*--- Color Styling --- */
 
