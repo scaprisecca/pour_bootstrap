@@ -41,6 +41,7 @@ body {
 
 .social {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .social li {
@@ -158,11 +159,29 @@ body {
     margin: .8rem 0;
 }
 
+.modal-body, .modal-header {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.rotating {
+    font-size: 1.4rem;
+}
+
+.close {
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.close:hover {
+    font-size: 3rem;
+    color: var(--white);
+}
+
 /*--- Photo Gallery Section --- */
 
 #photoGallery {
-    background: var(--light-gray);
-    
+    background: var(--black);
 }
 
 .carousel-item img {
@@ -179,9 +198,39 @@ body {
 
 .phone {
     font-size: 1.7rem;
-    color: var(--black);
+    color: var(--white);
 }
 
 .footer-text {
     font-size: 1.2rem;
+}
+
+footer {
+    color: var(--white);
+    position: relative;
+}
+
+footer .social {
+    margin-top: 5rem;
+}
+
+footer .social a {
+    color: var(--white);
+}
+
+.portfolio {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+}
+
+.portfolio a:hover {
+    font-size: 1.2rem;
+    color: blue;
+}
+
+.portfolio a {
+    list-style: none;
+    color: var(--white);
+    
 }
