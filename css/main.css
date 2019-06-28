@@ -17,6 +17,12 @@ body {
     background: rgb(107,122,137);
 }
 
+.img-logo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
 #nav-logo {
     padding-left: 2rem;
     font-size: 2rem;
@@ -65,10 +71,10 @@ body {
     border-radius: 2%;
 }
 
-.pour-logo {
-    width: 250px;
-    height: 250px;
-}
+/* .pour-logo {
+    width: 100%;
+    height: auto;
+} */
 
 .lead {
     text-align: center;
