@@ -26,7 +26,6 @@
     <div class="container-fluid">
 
         <nav class="navbar navbar-expand-md steel-gradient">
-            <!-- <p id="nav-logo" class="text-center pl-0"><span class="pour-text">Pour </span>Wine & Taproom</p> / looks better with the image in the header, checking to make sure they like that more-->
             <img class="img-logo" src="./img/pour_cover_photo.png" alt="Pour Wine & Taproom">
             <ul class="social navbar-nav d-none d-md-inline-flex ml-auto">
                 <li class="facebook social__link"><a href="https://www.facebook.com/AZpourwineandtaproom/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
@@ -103,11 +102,7 @@
                   </button>
                 </div>
                 <div class="modal-body text-center">
-                    <img class="lg-modal-img img-fluid" src="img/pour_beer_list_2.jpg" alt="Pour's Wine List">
-                    <p class="beer-menu-description pt-md-3">All to-go beer options are located in our cooler</p>
-                    <p class="font-weight-bold font-italic rotating">Come on in to check out our rotating supply of beers!</p>
-                    <p class="hh-title">Happy Hour Deals</p>
-                    <p class="hh-description">$2 off 16oz Beers<br />$1 off 10oz Beers</p>
+                    <div id="menu-container"></div>
                 </div>
               </div>
             </div>
@@ -182,6 +177,66 @@
               </div>
             </div>
           </div>
+          <!--End Modal Section-->
+
+          <!--Start Merch Section-->
+
+          <!-- <div class="merch-section">
+            <div class="row col-12">
+              <p class="modal-title">Check out our Merchandise</p>
+            </div>
+
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <div class="card">
+                  <img src="./img/merch/pour-hydro-flask.jpg" alt="Pour's Hydroflask for sale" class="card-img-top merch-img">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Hydroflask - $28</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <div class="card">
+                  <img src="./img/merch/pour-tumblers.jpg" alt="Pour's tumblers for sale" class="card-img-top merch-img">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Tumblers - $30</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <div class="card">
+                  <img src="./img/merch/pour-cups.jpg" alt="Pour's beer and wine glasses for sale" class="card-img-top merch-img">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Glasses - $5-10</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <div class="card">
+                  <img src="./img/merch/pour-gift-cards.jpg" alt="Pour's giftcards for sale" class="card-img-top merch-img">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Giftcards</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <img src="./img/merch/pour-all-hats.jpg" alt="Pour's hats for sale" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Hats - $18-23</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!--End Merch Section-->
         
           <!--Image Carousel Section-->
 
@@ -261,7 +316,7 @@
                   <p class="footer-text">Sun-Wed: 2:00pm - 10:00pm</p>
                   <p class="footer-text">Thur-Sat: 2:00pm - 12:00am</p>
                   
-                  <!-- <p class="portfolio"><a href="scottcaprisecca.com">Website made by Scott Caprisecca &copy;2019</a></p> -->
+                  <p class="portfolio"><a href="https://www.scottcaprisecca.com">Website made by Scott Caprisecca</a></p>
                 </div>
               </div>
 
@@ -276,5 +331,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      !function(e,n){var t=document.createElement("script"),a=document.getElementsByTagName("script")[0];t.async=1,a.parentNode.insertBefore(t,a),t.onload=t.onreadystatechange=function(e,a){(a||!t.readyState||/loaded|complete/.test(t.readyState))&&(t.onload=t.onreadystatechange=null,t=void 0,a||n&&n())},t.src=e}("https://embed-menu-preloader.untappdapi.com/embed-menu-preloader.min.js",function(){PreloadEmbedMenu("menu-container",26300,100842)});
+    </script>
   </body>
 </html>

@@ -184,6 +184,13 @@ body {
     color: var(--white);
 }
 
+/*--- Merch Section --- */
+
+.merch-img {
+    width: 250px;
+    height: 350px;
+}
+
 /*--- Photo Gallery Section --- */
 
 #photoGallery {
@@ -231,7 +238,7 @@ footer .social a {
 }
 
 .portfolio a:hover {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: blue;
 }
 
@@ -240,3 +247,16 @@ footer .social a {
     color: var(--white);
     
 }
+
+
+/* -------------------- Events Page -------------------- */
+
+.events-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--light-gray);
+}
+
+
+
+/* --------------------  Page -------------------- */
