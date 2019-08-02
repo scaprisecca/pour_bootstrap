@@ -68,11 +68,6 @@ nav {
     border-radius: 2%;
 }
 
-/* .pour-logo {
-    width: 100%;
-    height: auto;
-} */
-
 .lead {
     text-align: center;
     line-height: 2rem;
@@ -167,6 +162,10 @@ nav {
     color: var(--white);
 }
 
+.modal-lg {
+    max-width: 90%;
+}
+
 .rotating {
     font-size: 1.4rem;
 }
@@ -179,13 +178,6 @@ nav {
 .close:hover {
     font-size: 3rem;
     color: var(--white);
-}
-
-/*--- Merch Section --- */
-
-.merch-img {
-    width: 250px;
-    height: 350px;
 }
 
 /*--- Photo Gallery Section --- */
@@ -256,4 +248,25 @@ footer .social a {
 
 
 
-/* --------------------  Page -------------------- */
+/* -------------------- Shop Page -------------------- */
+
+ .shop-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shop-title {
+    font-size: 3rem;
+    padding: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+@media (max-width: 991.98px) { 
+    .sm-center {
+        margin: 1rem auto 0;
+    }
+ } 
