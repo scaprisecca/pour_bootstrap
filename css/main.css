@@ -237,6 +237,12 @@ footer .social a {
     
 }
 
+@media (max-width: 585px) {
+    .portfolio {
+        position: static;
+    }
+}
+
 
 /* -------------------- Events Page -------------------- */
 
